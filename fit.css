@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://static.india.com/wp-content/uploads/2022/09/Collage-Maker-30-Sep-2022-04.56-PM.jpg?impolicy=Medium_Resize&w=1200&h=800);
+    background-repeat: repeat-x; 
+    background-size: 25%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.lucky{
+    background-color: orange;
+    margin-top: 10%;
+    font-size:30px;
+    color: white;
+    text-align: center;
+}
+  .box{
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+    text-align: center;
+    padding-left: 5px;
+
+  }
+  .box-1{
+
+      padding-top:10px;
+  }
+
+.text1 {
+    position:absolute;
+    bottom:70%;
+    left: 20px;
+    font-size: 24px;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 2px 2px  4px white;
+}
+.text2 {
+     position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    
+    color:white;
+    text-shadow: 2px 2px  4px white;
+}
+.text3 {
+     position: absolute; 
+    top: 25ppx;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px  4px white;
+}
